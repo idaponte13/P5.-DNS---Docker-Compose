@@ -24,4 +24,6 @@ Para a posterior comporbación utilziaremos o comando ```docker compose up -d```
 
 [+] Running 2/2  
  ✔ Network p5-dns---docker-compose_default  Created                        0.1s   
- ✔ Container Practica5_bind9                Started                        0.3s   
+ ✔ Container Practica5_bind9                Started                        0.3s  
+
+ A informacion para levar a cabo esta práctica esta sacado de seguinte enlace: https://hub.docker.com/r/internetsystemsconsortium/bind9
