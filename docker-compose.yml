@@ -1,0 +1,14 @@
+services:
+  bind9: 
+    image: internetsystemsconsortium/bind9:9.18 
+    container_name: Practica5_bind9 
+    ports:
+      - 54:53/udp
+      - 54:53/tcp
+      - 127.0.0.1:953:953/tcp 
+    volumes:
+      - ./etc/bind:/etc/bind
+      - ./var/cache/bind:/var/cache/bind
+    restart: always 
+
+
